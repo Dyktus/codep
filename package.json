@@ -1,0 +1,28 @@
+{
+  "name": "codepepper",
+  "version": "1.0.0",
+  "description": "Coding task for Code&Pepper",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -Rf ./dist/* && tsc",
+    "dev": "ts-node-dev ./src/index.ts",
+    "migrations:up": "typeorm migration:run -d ./src/data-source.ts --",
+    "start": "node ./dist/index.js",
+    "test": "test"
+  },
+  "author": "Lukasz Nowak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "tslint": "^6.1.3",
+    "typeorm": "^0.3.16",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}

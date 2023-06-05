@@ -1,0 +1,35 @@
+version: '3.4'
+services:
+  app:
+    restart: always
+    build:
+      context: .
+    command: npm run start
+    volumes:
+      - .:/app:delegated
+    links:
+      - db
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: dev
+    depends_on:
+      - db
+  db:
+    image: arm64v8/mysql:oracle # Sorry I have newest mac mini with M1 chip
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'test'
+      MYSQL_PASSWORD: 'test'
+      MYSQL_ROOT_PASSWORD: 'test'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+
+volumes:
+  my-db:

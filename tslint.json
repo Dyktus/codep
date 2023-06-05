@@ -1,0 +1,78 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-line-length": [
+      true,
+      130
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "interface-over-type-literal": false,
+    "member-ordering": [
+      true,
+      "fields-first"
+    ],
+    "no-reference": true,
+    "no-var-requires": false,
+    "no-require-imports": false,
+    "import-spacing": true,
+    "match-default-export-name": true,
+    "ordered-imports": false,
+    "interface-name": false,
+    "array-type": [
+      true,
+      "array"
+    ],
+    "object-literal-sort-keys": false,
+    "no-string-literal": false,
+    "object-literal-key-quotes": false,
+    "arrow-parens": false,
+    "no-console": [
+      true,
+      "log",
+      "debug"
+    ],
+    "object-literal-shorthand": false,
+    "ban-types": {
+      "options": [
+        [
+          "Object",
+          "Avoid using the `Object` type. Did you mean `object`?"
+        ],
+        [
+          "Boolean",
+          "Avoid using the `Boolean` type. Did you mean `boolean`?"
+        ],
+        [
+          "Number",
+          "Avoid using the `Number` type. Did you mean `number`?"
+        ],
+        [
+          "String",
+          "Avoid using the `String` type. Did you mean `string`?"
+        ],
+        [
+          "Symbol",
+          "Avoid using the `Symbol` type. Did you mean `symbol`?"
+        ]
+      ]
+    },
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ],
+    "semicolon": false
+  }
+}

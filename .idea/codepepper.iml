@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="secure-trading-service" />
+    <orderEntry type="module" module-name="admin-frontend" />
+    <orderEntry type="module" module-name="awt-backend" />
+    <orderEntry type="module" module-name="sleepers-service" />
+    <orderEntry type="module" module-name="spot" />
+  </component>
+</module>

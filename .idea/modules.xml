@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../assertis/admin-frontend/.idea/admin-frontend.iml" filepath="$PROJECT_DIR$/../../assertis/admin-frontend/.idea/admin-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../assertis/awt-backend/.idea/awt-backend.iml" filepath="$PROJECT_DIR$/../../assertis/awt-backend/.idea/awt-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/codepepper.iml" filepath="$PROJECT_DIR$/.idea/codepepper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../assertis/secure-trading-service/.idea/secure-trading-service.iml" filepath="$PROJECT_DIR$/../../assertis/secure-trading-service/.idea/secure-trading-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../assertis/sleepers-service/.idea/sleepers-service.iml" filepath="$PROJECT_DIR$/../../assertis/sleepers-service/.idea/sleepers-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../assertis/infra/spot/.idea/spot.iml" filepath="$PROJECT_DIR$/../../assertis/infra/spot/.idea/spot.iml" />
+    </modules>
+  </component>
+</project>

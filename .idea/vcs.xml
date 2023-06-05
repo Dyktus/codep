@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../assertis/admin-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../assertis/awt-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../assertis/infra/spot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../assertis/secure-trading-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../assertis/sleepers-service" vcs="Git" />
+  </component>
+</project>
